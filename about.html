@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/styles/aboutstyle.css">
+    <title>Team</title>
+</head>
+
+<body>
+    <!-- Start of the navbar -->
+    <div class="navbar">
+        <header>
+            <nav>
+                <a href="Home.html"><img src="./assets/images/logo.png" alt="Logo" width="50" height="50"></a>
+                <a href="Home.html">Home</a>
+                <a href="buyProducts.html">Shop</a>
+                <a href="quizMain.html">Quiz</a>
+                <a href="Thumbnail images.html">Images</a>
+                <a href="sitemap.html">Sitemap</a>
+                <a href="about.html">Team</a>
+            </nav>
+        </header>
+    </div>
+    <!-- navbar end -->
+
+    <!-- team details start -->
+
+    <div class="container">
+        <table class="tbl">
+            <tr>
+                <td><a href="#" onmouseover="showDetails(1)"><img class="stud" src="/assets/images/janith.jpg"
+                            alt="janith" width="300" height="300"></a></td>
+                <td><a href="#" onmouseover="showDetails(2)"><img class="stud" src="/assets/images/thariq.jpg"
+                            alt="thariq" width="300" height="300"></a></td>
+                <td><a href="#" onmouseover="showDetails(3)"><img class="stud" src="/assets/images/indunil.jpg"
+                            alt="indunil" width="300" height="300"></a>
+                </td>
+                <td><a href="#" onmouseover="showDetails(4)"><img class="stud" src="/assets/images/jayali.jpg"
+                            alt="jayali" width="300" height="300"></a></td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <form name="detailsView">
+                        <input class="details" type="text" name="moredetails" size="25" />
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- team details end -->
+
+    <!-- script -->
+    <script>
+        var details = [];
+        details[1] = "Janith Bojitha Kudawithana (w1810011 / 20200275) Role : Student 1";
+        details[2] = "Seyed Fazee Mohomed Thariq (w1833602 / 20200758) Role : Student 2";
+        details[3] = "Welendawa Gamage Indunil Aravinda (w1837776 / 20200839) Role : Student 3";
+        details[4] = "Ranasinghe Arachchige Jayali Ayathma Ranasinghe (w1837940 / 20200817) Role : Student 4";
+        var current = -1;
+        function showDetails(n) {
+            if (n != current) {
+                document.detailsView.moredetails.value = details[n];
+                current = n;
+            }
+        }
+    </script>
+    <div class="dev">
+        <a href="developerAravinda.html">Page Editor</a>
+    </div>
+
+</body>
+
+</html>

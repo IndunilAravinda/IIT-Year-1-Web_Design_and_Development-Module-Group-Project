@@ -1,0 +1,70 @@
+header {
+  background-color: #da291c;
+  display: block;
+}
+
+nav {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+nav a {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.headst {
+  text-align: center;
+  font-size: 150%;
+  font-family: verdana;
+}
+
+.images {
+  width: 250px;
+  height: 200px;
+}
+
+#enlargeImage {
+  width: 600px;
+  height: 450px;
+}
+
+#enlargeImageDiv {
+  margin-left: 100px;
+  float: left;
+  width: 650px;
+}
+
+#discripDiv {
+  margin-left: 500px;
+  margin-top: 50px;
+}
+
+#thumbnails {
+  margin-left: 100px;
+}
+
+#backGroundColors {
+  float: left;
+  margin-left: 250px;
+}
+#textColours {
+  margin-left: 700px;
+}
+
+#discrip {
+  padding-top: 100px;
+  height: 200px;
+  width: 920px;
+  font-size: 20px;
+}
+
+.label {
+  font-size: 20px;
+}

@@ -1,0 +1,123 @@
+:root {
+  background-image: url(/assets/images/quizBg.jpg);
+  font-size: 16px;
+  color: #333;
+  background-size: cover;
+}
+* {
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #da291c;
+  display: block;
+}
+
+nav {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+nav a {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > * {
+  width: 100%;
+}
+
+#questions {
+  background-color: rgba(255, 255, 255, 0.938);
+  /* text-align: center; */
+  padding-left: 50px;
+  width: 60%;
+  height: 80vh;
+  overflow: scroll;
+}
+
+.qstyle {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.sticky {
+  background-color: #da291c;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.qpaper p {
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.qpaper input {
+  font-size: 20px;
+}
+#countTime {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.subButn {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 90%;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  border: 1px solid;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border-color: #333;
+  background-color: rgba(0, 190, 0, 0.781);
+  color: black;
+}
+.subButn :hover {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  border: 1px solid;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border-color: rgb(255, 255, 255);
+  background-color: rgba(255, 34, 34, 0.781);
+  color: rgb(255, 255, 255);
+}
+.resultStyle {
+  background-color: white;
+  color: #333;
+  font-size: 16px;
+  text-align: center;
+}
+
+.dev {
+  padding: 20px;
+}
+.dev a {
+  color: white;
+}

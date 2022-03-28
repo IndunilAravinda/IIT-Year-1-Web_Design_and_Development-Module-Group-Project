@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/styles/quizstyle.css" type="text/css">
+    <script src="/assets/scripts/indscript.js"></script>
+    <title>Start Answering questions</title>
+</head>
+
+<body id="allCont">
+    <!-- Start of the navbar -->
+    <div class="navbar">
+        <header>
+            <nav>
+                <a href="Home.html"><img src="./assets/images/logo.png" alt="Logo" width="50" height="50"></a>
+                <a href="Home.html">Home</a>
+                <a href="buyProducts.html">Shop</a>
+                <a href="quizMain.html">Quiz</a>
+                <a href="Thumbnail images.html">Images</a>
+                <a href="sitemap.html">Sitemap</a>
+                <a href="about.html">Team</a>
+            </nav>
+        </header>
+    </div>
+    <!-- navbar end -->
+    <!-- Time left -->
+    <div id="countTime" class="sticky">
+
+    </div>
+    <div class="container">
+        <div id="questions" class="qpaper">
+            <p style="padding-top: 20px;">Scroll down to see your results</p>
+            <form id="ManQuiz">
+                <div class="qstyle">
+                    <p class="qpara">1) Which player is affectionately known as 'The King' to Manchester United fans?
+                    </p>
+                    <input type="radio" name="q1" id="eric" value="Eric Cantona"><label for="eric">Eric Cantona</label>
+                    <br>
+                    <input type="radio" name="q1" id="david" value="David Beckham"><label for="david">David
+                        Beckham</label>
+                    <br>
+                    <input type="radio" name="q1" id="michael" value="Michael Owen"><label for="michael">Michael
+                        Owen</label>
+                    <br>
+                    <input type="radio" name="q1" id="chris" value="Chris Smalling"><label for="chris">Chris
+                        Smalling</label>
+                </div>
+
+                <div class="qstyle">
+                    <p class="qpara">2) Which two players were suspended for Manchester United's 1999 Champions League
+                        final triumph?</p>
+                    <input type="radio" name="q2" id="rknps" value="Roy Keane and Paul Scholes"><label for="rknps">Roy
+                        Keane and Paul Scholes</label>
+                    <br>
+                    <input type="radio" name="q2" id="rnf" value="Rafael and Fabio"><label for="rnf">Rafael and
+                        Fabio</label>
+                    <br>
+                    <input type="radio" name="q2" id="rnk" value="Rafael and Roy Keane"><label for="rnk">Rafael and Roy
+                        Keane</label>
+                    <br>
+                    <input type="radio" name="q2" id="psnf" value="Paul Scholes and Fabio"><label for="psnf">Paul
+                        Scholes and Fabio</label>
+                </div>
+
+                <div class="qstyle">
+                    <p class="qpara">3) Prior to wearing No. 7, David Beckham wore which number at Manchester United?
+                    </p>
+                    <input type="radio" name="q3" id="n10n24" value="No. 10 & No. 24"><label for="n10n24">No. 10 & No.
+                        24</label>
+                    <br>
+                    <input type="radio" name="q3" id="n15n25" value="No. 15 & No. 25"><label for="n15n25">No. 15 & No.
+                        25</label>
+                    <br>
+                    <input type="radio" name="q3" id="n25n10" value="No. 25 & No. 10"><label for="n25n10">No. 25 & No.
+                        10</label>
+                    <br>
+                    <input type="radio" name="q3" id="n24n25" value="No. 24 & No. 25"><label for="n24n25">No. 24 & No.
+                        25</label>
+                </div>
+
+                <div class="qstyle">
+                    <p class="qpara">4) Who scored the winning goal for Manchester United in their 2-1 Champions League
+                        final victory in 1999?</p>
+                    <input type="radio" name="q4" id="ole" value="Ole Gunnar Solskjaer"><label for="ole">Ole Gunnar
+                        Solskjaer</label>
+                    <br>
+                    <input type="radio" name="q4" id="messi" value="Lionell Messi"><label for="messi">Lionell
+                        Messi</label>
+                    <br>
+                    <input type="radio" name="q4" id="ronaldo" value="Christiano Ronaldo"><label
+                        for="ronaldo">Christiano Ronaldo</label>
+                    <br>
+                    <input type="radio" name="q4" id="bryan" value="Bryan Robson"><label for="bryan">Bryan
+                        Robson</label>
+                </div>
+
+                <div class="qstyle">
+                    <p class="qpara">5) Which player holds the distinction of being Manchester United's longest-serving
+                        captain?</p>
+                    <input type="radio" name="q5" id="bryanr" value="Bryan Robson"><label for="bryanr">Bryan
+                        Robson</label>
+                    <br>
+                    <input type="radio" name="q5" id="lmessi" value="Lionell Messi"><label for="lmessi">Lionell
+                        Messi</label>
+                    <br>
+                    <input type="radio" name="q5" id="bmay" value="Bryan May"><label for="bmay">Bryan May</label>
+                    <br>
+                    <input type="radio" name="q5" id="davidb" value="David Beckham"><label for="davidb">David
+                        Beckham</label>
+                </div>
+
+                <div class="qstyle">
+                    <p class="qpara">6) Which player took the No. 7 jersey after Cristiano Ronaldo left?</p>
+                    <input type="radio" name="q6" id="mowen" value="Michael Owen"><label for="mowen">Michael
+                        Owen</label>
+                    <br>
+                    <input type="radio" name="q6" id="chriss" value="Chris Smalling"><label for="chriss">Chris
+                        Smalling</label>
+                    <br>
+                    <input type="radio" name="q6" id="cronaldo" value="Christiano Ronaldo"><label
+                        for="cronaldo">Christiano Ronaldo</label>
+                    <br>
+                    <input type="radio" name="q6" id="lionellm" value="Lionell Messi"><label for="lionellm">Lionell
+                        Messi</label>
+                </div>
+
+                <div class="qstyle">
+                    <p class="qpara">7) In what year was Old Trafford built?</p>
+                    <input type="radio" name="q7" id="1910" value="1910"><label for="1910">1910</label>
+                    <br>
+                    <input type="radio" name="q7" id="1920" value="1920"><label for="1920">1920</label>
+                    <br>
+                    <input type="radio" name="q7" id="1960" value="1960"><label for="1960">1960</label>
+                    <br>
+                    <input type="radio" name="q7" id="1970" value="1970"><label for="1970">1970</label>
+                </div>
+
+                <div class="qstyle">
+                    <p class="qpara">8) What is the capacity of Old Trafford (as of 2020)?</p>
+                    <input type="radio" name="q8" id="74k" value="74,000"><label for="74k">74,000</label>
+                    <br>
+                    <input type="radio" name="q8" id="75k" value="75,000"><label for="75k">75,000</label>
+                    <br>
+                    <input type="radio" name="q8" id="76k" value="76,000"><label for="76k">76,000</label>
+                    <br>
+                    <input type="radio" name="q8" id="77k" value="77,000"><label for="77k">77,000</label>
+                </div>
+
+                <div class="qstyle">
+                    <p class="qpara">9) As of 2020, Manchester United hold the record for most league titles in England.
+                        How many times have they been champions?</p>
+                    <input type="radio" name="q9" id="20" value="20 times"><label for="20">20 times</label>
+                    <br>
+                    <input type="radio" name="q9" id="22" value="22 times"><label for="22">22 times</label>
+                    <br>
+                    <input type="radio" name="q9" id="25" value="25 times"><label for="25">25 times</label>
+                    <br>
+                    <input type="radio" name="q9" id="24" value="24 times"><label for="24">24 times</label>
+                </div>
+
+                <div class="qstyle">
+                    <p class="qpara">10) Who is the only player to win the European Golden Boot while playing for
+                        Manchester United?</p>
+                    <input type="radio" name="q10" id="chrisro" value="Christiano Ronaldo"><label
+                        for="chrisro">Christiano Ronaldo</label>
+                    <br>
+                    <input type="radio" name="q10" id="ogunnar" value="Ole Gunnar Solskjaer"><label for="ogunnar">Ole
+                        Gunnar Solskjaer</label>
+                    <br>
+                    <input type="radio" name="q10" id="liomes" value="Lionell Messi"><label for="liomes">Lionell
+                        Messi</label>
+                    <br>
+                    <input type="radio" name="q10" id="bryrob" value="Bryan Robson"><label for="bryrob">Bryan
+                        Robson</label>
+                </div>
+                <div class="btnstyle">
+                    <input id="subBtn" class="subButn" type="button" value="Submit you Answers"
+                        onclick="scoreMarks(this.form)">
+                </div>
+            </form>
+            <div id="resultsheet">
+                <!-- results display -->
+            </div>
+        </div>
+
+    </div>
+    <script>
+        var timeleft = 60;
+        var finishTimer = setInterval(function () {
+            if (timeleft <= 0) {
+                clearInterval(finishTimer);
+                document.getElementById("countTime").innerHTML = "Finished";
+                // function
+                document.getElementById("subBtn").click();
+            } else {
+                document.getElementById("countTime").innerHTML = timeleft + " seconds remaining";
+            }
+            timeleft -= 1;
+        }, 1000);
+    </script>
+
+    <div class="dev">
+        <a href="developerAravinda.html">Page Editor</a>
+    </div>
+
+</body>
+
+</html>
